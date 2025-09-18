@@ -27,9 +27,7 @@ html {
 }
 
 body {
-  min-height: 100vh;
   font-family: var(--font-primary);
-
   /* Font smoothing (cross-browser) */
   -webkit-font-smoothing: antialiased; /* WebKit (Chrome/Safari) */
   -moz-osx-font-smoothing: grayscale; /* Firefox on macOS */
@@ -44,7 +42,7 @@ img {
 
 /* Basic page structure */
 .page {
-  min-height: 100vh;
+  min-height: 90vh;
   background: linear-gradient(
     148deg,
     var(--color-neutral-50) 8.89%,
@@ -129,7 +127,9 @@ img {
 
 /* Footer */
 .credits {
-  padding: 12px;
-  text-align: center;
+  min-height: 10vh;
   font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

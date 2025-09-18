@@ -8,7 +8,7 @@ This repository contains my solution for the **Testimonial Card** from [Great Fr
 
 ## 🚀 Live Demo
 
-[View on Netlify](https://your-netlify-link.netlify.app)
+[View on Netlify](https://abilio-gfe-testimonial-card.netlify.app/)
 
 ## 🛠️ Built With
 
