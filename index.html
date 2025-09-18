@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Great Frontend Project</title>
+
+    <!-- Google Fonts: Noto Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.ico" sizes="any" />
+  </head>
+  <body>
+    <main class="page">
+      <article class="testimonial-card" aria-labelledby="tcard-title">
+        <!-- Header: introductory content of the testimonial -->
+        <header class="testimonial-card__header">
+          <!-- Optimized avatar for different screen resolutions -->
+          <img
+            class="testimonial-card__avatar"
+            src="./img/profile-48.webp"
+            srcset="./img/profile-48.webp 1x, ./img/profile-96.webp 2x"
+            sizes="48px"
+            alt="Sarah Dole"
+            width="48"
+            height="48"
+            decoding="async"
+          />
+
+          <!-- Meta info: name + handle -->
+          <div class="testimonial-card__meta">
+            <!-- Name acts as the article title -->
+            <h2 id="tcard-title" class="testimonial-card__name">Sarah Dole</h2>
+            <!-- Public handle (social username) -->
+            <p class="testimonial-card__handle">@sarahdole</p>
+          </div>
+        </header>
+
+        <!-- Body: main testimonial text -->
+        <p class="testimonial-card__text">
+          I've been searching for high-quality abstract images for my design
+          projects, and I'm thrilled to have found this platform. The variety
+          and depth of creativity are astounding!
+        </p>
+      </article>
+      <!-- Attribute this challenge to yourself! -->
+    </main>
+    <footer class="credits">
+      A challenge by
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        >GreatFrontEnd Projects</a
+      >. Built by
+      <a
+        href="https://www.greatfrontend.com/projects/u/abiliodeassis"
+        target="_blank"
+        >Abilio de Assis</a
+      >.
+    </footer>
+  </body>
+</html>
