@@ -1,6 +1,6 @@
-# Great Frontend Project – [Testimonial Card]
+# Great Frontend Project – Testimonial Card
 
-This repository contains my solution for the **[Testimonial Card]** from [Great Frontend Projects](https://www.greatfrontend.com/projects).
+This repository contains my solution for the **Testimonial Card** from [Great Frontend Projects](https://www.greatfrontend.com/projects).
 
 ## 📸 Preview
 
